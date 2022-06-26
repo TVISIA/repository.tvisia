@@ -11,7 +11,7 @@
         <summary>TVISIA Repository</summary>
         <description>KODI Leia / Matrix Repository</description>
         <disclaimer></disclaimer>
-        <platform>all</platform>
+        <platform>Leia</platform>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
