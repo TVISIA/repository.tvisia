@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.tvisia" name="TVISIA Repository" version="0.0.1" provider-name="tvisia">
-    <extension point="xbmc.addon.repository" name="Example Repository">
+<addon id="repository.tvisia" name="TVISIA Repository" version="0.0.1" provider-name="TVISIA">
+    <extension point="xbmc.addon.repository" name="TVISIA Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/tvisia/repository.tvisia/master/repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/tvisia/repository.tvisia/master/repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/tvisia/repository.tvisia/master/repo/repository.tvisia/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/TVISIA/repository.tvisia/master/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/TVISIA/repository.tvisia/master/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/TVISIA/repository.tvisia/master/repo/repository.tvisia/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>TVISIA Repository</summary>
         <description>KODI Leia / Matrix Repository</description>
         <disclaimer></disclaimer>
-        <platform>Leia</platform>
+        <platform>all</platform>
+        <website>https://tvisia.github.io</website>
+        <news>Exklusiv für Mediencenter KOVI (einem Fork von XBMC/KODI)- Matrix - ab Version 19.x</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
